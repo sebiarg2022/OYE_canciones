@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500');
+
+@font-face {
+	font-family: "Chilanka";
+	src: local("Chilanka"),
+		url("../Fonts/Chilanka-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1,
+a {
+	font-family: 'Roboto';
+}
+
+#container-inicio {
+	background-color: #e9ecef;
+}
+
+#buscar {
+	width: 100%;
+	padding: 15px 10px;
+	border: 2px solid #ccc;
+	border-radius: 15px;
+}
+
+
+#email {
+	background-image: url(../imagenes/contacto.svg);
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+#password,
+#confirmacion {
+	background-image: url(../imagenes/pasword2.svg);
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+#nombre{
+    font-family: 'Roboto';
+}
+
+.error {
+	font-style: oblique;
+    font-family: 'Fredoka', sans-serif;
+	color: red;
+	font-weight: bold;
+}
+
+
+.navbar-brand {
+	font-family: "Chilanka" !important;
+	color: rgb(9, 240, 205) !important;
+	font-size: x-large;
+	text-align: justify;
+	font-weight: bolder;
+}
