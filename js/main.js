@@ -10,7 +10,7 @@ function mostrarJson() {
 
 	var peticion = new XMLHttpRequest();
 
-	peticion.open("GET", "http://127.0.0.1:5501/datos.json", true);
+	peticion.open("GET", "datos.json", true);
 
 	peticion.send();
 
@@ -88,7 +88,7 @@ function buscar(texto){
   
   var peticion = new XMLHttpRequest();
 
-  peticion.open('GET','http://127.0.0.1:5501/datos.json',true);
+  peticion.open("GET", "datos.json", true);
    
   peticion.send();
 
